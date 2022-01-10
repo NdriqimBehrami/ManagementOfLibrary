@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar Style */
+nav a{
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+a:hover{
+    color: white;
+    
+}
+/* navbar Logo style */
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.login-icons{
+    font-size: 18px;
+}
+
+
+/* Footer Style */
+footer{
+
+    background-color: #343a40;
+}
+.social-icon{
+    text-align: center;
+    font-size: 22px;
+}
+#icon-footer{
+    padding-top:20px;
+    padding-bottom: 10px;
+    color: gainsboro;
+
+}
+#icon-footer:hover{
+    color: white;
+    transition: .5s;
+}
+#footer-copy{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: gainsboro;
+}
