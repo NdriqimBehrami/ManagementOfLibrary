@@ -1,36 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Poppins:wght@100;200&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
-/* Navbar Style */
+.navbar{
+    background-color:#333 !important;
+    /* background-color: #2c2c2c !important; */
+    font-size: 15px;
+    width: 100% !important;
+    
+}
 nav a{
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 2.5px;
+    color: gainsboro!important;
+    text-transform: uppercase;
+    font-size: 13px !important;
 
 }
-a:hover{
+nav a:hover{
+    color: white !important;
+}
+.logo{
+    letter-spacing: 2.5px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    /* font-family: 'Roboto', sans-serif; */
+    color: gainsboro !important;
+    
+
+}
+button span{
+    font-size: 16px;
+}
+/* content/Container */
+body{
+    overflow-x: hidden;
+    background-color: beige;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+.cover_img{
+    overflow-y: auto;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) ,rgba(0,0,0,0.3 )), url(img/wallpaper4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+
+}
+/* ABOUT */
+.about_img{
+    overflow-y: auto;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.6) ,rgba(0,0,0,0.3 )), url(img/about/menu1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    
+}
+.about-text{
+    color: #fefefe;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+.title-about{
+    text-align: center;
+    padding-top:30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.paragraf-about{
+    text-align: justify;
+    
+}
+.img-about{
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 15px 25px 35px darkslategray;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+#btn {
+    background-color: #333;
+    padding: 10px 20px;
+    margin-top: 4%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 6%;
+    letter-spacing: 2px;
+    
+    
+    
+}
+ #btn a{
+    color: white;
+    text-decoration: none;
+    
+}
+#button a:hover{
+    background-color: gainsboro;
+    color: #333;
+    transition: .5s ease-in;
+}
+.pushBottom{
+    margin-top: 10%;
+}
+.pushlittleBottom{
+    padding-bottom:5%;
+}
+.icons-about{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.description-icons{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* MENU */
+.menu_cover1{
+    overflow-y: auto;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.6) ,rgba(0,0,0,0.3 )), url(img/about/about7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    
+}
+.menu-text{
+    color: #fefefe;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+.food-name{
+    text-align: center;
+
+}
+.desc-food{
+    font-family: 'Poppins' ,sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+.title-food{
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 22px;
+   text-align: center;
+   color: #333;
+}
+
+ .border-design{
+    border-bottom: 3px solid firebrick;
+    padding-bottom: 5px;
+}
+
+/* ======================== */
+
+/* CONTACT */
+.contact_img{
+    overflow-y: auto;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.6) ,rgba(0,0,0,0.3 )), url(img/about/about9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+}
+
+.contact-text{
+    color: #fefefe;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+label{
+    font-family: 'Roboto',sans-serif;
+}
+input{
+    margin-bottom: 20px;
+    
+}
+ input,textarea{
+    display: block;
+    width: 100%;
+    padding: 2.5%;
+    border-radius: 0.5rem;
+    border:1px solid #333;
+    outline: none;
+    
+}
+
+#submit{
+    width: 50%;
+    margin: 4% auto;
+    padding: 3%;
+    background-color: #333;
     color: white;
     
 }
-/* navbar Logo style */
-.logo{
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-.login-icons{
-    font-size: 18px;
+#submit:hover{
+    background-color: gainsboro;
+    color: #333;
+    transition: 0.5s ease-in;
 }
 
+.icons-contact{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.description-contact{
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+.frame{
+    padding-top: 5%;
+    width: 100%;
+    
+}
 
-/* Footer Style */
-footer{
-
-    background-color: #343a40;
+/* ----============================= */
+.text{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 18%;
+   
+}
+.title{
+    color: white;
+    font-family: 'Poppins' ,sans-serif;
+    font-size: 60px;
+   
+}
+#quote{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+#quote2{
+    color: white;
+    font-size: 40px;
+    font-family: 'Corinthia', cursive;
 }
 .social-icon{
+    color: white;
+    font-size: 2em;
     text-align: center;
-    font-size: 22px;
+    
+}
+#icon{
+    padding:0px 15px 0px 15px;
+    color: white;
+}
+#icon:hover{
+    transition: .5s ease-in;
+    color: grey
+    
+}
+#titleHome{
+    padding-top:30px;
+    text-align: center;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Corinthia', cursive;
+    font-weight: 700;
+    margin-bottom: 20px;
+    /* font-family: 'Roboto', sans-serif; */
+}
+#imgHome{
+   width: 100%;
+   box-shadow: 15px 25px 45px darkslategray;
+   
+
+/* @media screen and (min-width:400px){
+    #imgHome{
+        width: 100%;
+        border-radius: 5%;
+        margin-bottom: 20px;
+    
+    } */
+}
+#foto2-home{
+    width: 100%;
+    box-shadow: 15px 25px 45px darkslategray;
+    
+}
+#foto3-home{
+    width: 100%;
+    box-shadow: 15px 25px 45px darkslategray;
+   
+}
+
+ .row2{
+    padding-top: 5%;
+} 
+/* testmontials */
+#titleHome-testmontials{
+    padding-top:30px;
+    text-align: center;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Corinthia', cursive;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.bockquote{
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+   
+}
+.testmontials{
+    font-weight: bold;
+    width: 100%;
+    
+}
+.restaurant-photo-home{
+    object-fit: cover;
+    object-position: center; 
+    border-radius: 3%;
+    width: 100vw;
+    margin: 0 auto;
+    height: 60vh; 
+}
+.summary-photo-home{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+}
+#moto{
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Corinthia', cursive;
+    font-size: 60px;
+}
+footer{
+    margin-top: 20px;
+    background-color: #333;
 }
 #icon-footer{
     padding-top:20px;
@@ -47,4 +362,17 @@ footer{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: gainsboro;
+}
+@media screen and (max-width: 600px){
+    #media-bottom{
+        margin-top: 60%;
+        font-size: 3em;
+    }
+    .media-bottom{
+        margin-top: 60%;
+        font-size: 3em;
+    }
+    .medias{
+        margin-top: 10%;
+    }
 }
