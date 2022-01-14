@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Library</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
@@ -18,92 +18,63 @@
 
 <body>
 
-    <!-- Navbar -->
+<img th:src="@{img/wallpaper4.jpg}" alt="" width="100%" height="100%"/>
 
-    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark nav">
-        <a href="#" class="navbar-brand logo">Your favorite library</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
-            <ul class="navbar-nav ml-auto" id=" navigation">
-                <li class="nav-item px-3">
-                    <a th:href="@{/index}" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item px-3">
-                    <a href="#" class="nav-link">About Us</a>
-                </li>
-                <li class="nav-item px-3">
-                    <a th:href="@{/list-books}" class="nav-link">Books</a>
-                </li>
-                <li class="nav-item px-3">
-                    <a th:href="@{/login}" class="nav-link">Login</i></a>
+<!-- Navbar -->
 
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Perfundon pjesa e NAV bar -->
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark nav">
+    <a href="#" class="navbar-brand logo">Your favorite library</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ml-auto" id=" navigation">
+            <li class="nav-item px-3">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item px-3">
+                <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item px-3">
+                <a th:href="@{/list-books}" class="nav-link">Books</a>
+            </li>
+            <li class="nav-item px-3">
+                <a th:href="@{/login}" class="nav-link">Login</i></a>
 
-    <!-- MAIN Section -->
-    <!-- Ketu mundesh me hek veq e kom vendos sa per ilustrim te webfaqes -->
-    <main>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Perfundon pjesa e NAV bar -->
 
-       <hr>
-        <br>
-        <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolore aliquam sit nisi omnis vel atque
-            placeat minus voluptates consectetur repellat maiores, commodi cupiditate quis repudiandae cumque adipisci
-            aliquid dolorem illo sunt? Blanditiis et dolore magni accusamus minus, cupiditate tempore aspernatur
-            inventore facere molestiae eius, in earum pariatur perspiciatis expedita? Enim incidunt necessitatibus
-            suscipit ea reiciendis esse tenetur quo libero. Doloremque quaerat minima voluptatem repellat, obcaecati
-            possimus adipisci molestiae, nesciunt ut facere, ab in quia quae laboriosam cupiditate architecto neque
-            vero? Praesentium autem facilis, dolore, fugiat unde officia sint, velit debitis delectus cumque saepe?
-            Beatae officiis rem atque repellendus provident enim exercitationem ex similique. Odit officiis amet
-            pariatur dolores placeat rem voluptatem est quaerat nesciunt nam odio nobis possimus, id perspiciatis
-            suscipit libero. Sint explicabo iure pariatur natus est commodi, libero quas fugiat et porro laboriosam
-            cumque consectetur. Deleniti error dolor, veniam maiores quae amet iusto obcaecati aspernatur. Itaque iste
-            quod magni doloribus nesciunt labore similique facere dignissimos asperiores, iusto iure facilis nobis?
-            Porro doloremque harum repellendus consequatur modi at dolor adipisci sed dignissimos reiciendis! Nihil,
-            facilis excepturi. Non corporis tempora inventore assumenda veritatis aut accusantium, ad eveniet deserunt
-            eum in dolorem voluptatem sed iste magni temporibus, nisi eos esse!</p>
+<!-- MAIN Section -->
+<!-- Ketu mundesh me hek veq e kom vendos sa per ilustrim te webfaqes -->
+<main>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolore aliquam sit nisi omnis vel atque
-                placeat minus voluptates consectetur repellat maiores, commodi cupiditate quis repudiandae cumque adipisci
-                aliquid dolorem illo sunt? Blanditiis et dolore magni accusamus minus, cupiditate tempore aspernatur
-                inventore facere molestiae eius, in earum pariatur perspiciatis expedita? Enim incidunt necessitatibus
-                suscipit ea reiciendis esse tenetur quo libero. Doloremque quaerat minima voluptatem repellat, obcaecati
-                possimus adipisci molestiae, nesciunt ut facere, ab in quia quae laboriosam cupiditate architecto neque
-                vero? Praesentium autem facilis, dolore, fugiat unde officia sint, velit debitis delectus cumque saepe?
-                Beatae officiis rem atque repellendus provident enim exercitationem ex similique. Odit officiis amet
-                pariatur dolores placeat rem voluptatem est quaerat nesciunt nam odio nobis possimus, id perspiciatis
-                suscipit libero. Sint explicabo iure pariatur natus est commodi, libero quas fugiat et porro laboriosam
-                cumque consectetur. Deleniti error dolor, veniam maiores quae amet iusto obcaecati aspernatur. Itaque iste
-                quod magni doloribus nesciunt labore similique facere dignissimos asperiores, iusto iure facilis nobis?
-                Porro doloremque harum repellendus consequatur modi at dolor adipisci sed dignissimos reiciendis! Nihil,
-                facilis excepturi. Non corporis tempora inventore assumenda veritatis aut accusantium, ad eveniet deserunt
-                eum in dolorem voluptatem sed iste magni temporibus, nisi eos esse!</p>
+    <hr>
+    <br>
+    <br>
 
-    </main>
 
+</main>
 
 
 
 
 <!-- Fillon pjesa e FOOTERIT -->
 
-    <!-- FOOTER -->
+<!-- FOOTER -->
 
 <!-- Perfundon pjesa  e Footerit -->
 
 <!-- Scripts per Navbar me Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 </body>
